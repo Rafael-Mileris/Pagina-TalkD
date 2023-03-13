@@ -1,29 +1,61 @@
-/* LINKS */
-a{
+/* FORMATAÇÃO GERAL */
+
+body{
+    background-color: lightsteelblue;
+}
+a {
     color: black;
-    font-weight: bold;
 }
 
 /* NAVBAR */
-.navbar{
+.navbar {
     background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), white, rgba(128, 0, 128, 0.3));
     border: 2px solid black;
     border-radius: 10px;
 }
-#logotipo{
+
+#logotipo {
     height: 6em;
 }
-.nav-item{
+
+.nav-item {
     font-size: 25px;
     border: 2px solid black;
     border-radius: 10px;
     width: 9em;
     text-align: center;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     transition: 0.2s;
     border: 2px solid purple;
-    background-color: rgba(128, 0, 128, 0.3);
     box-shadow: 0px 0px 5px purple;
+    color: white;
+}
+
+/* SLOGAN */
+.slogan{
+    margin: auto;
+    padding: 2px;
+}
+.slg-item {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.slg-atendimento {
+    background-color: purple;
+    color: white;
+}
+
+.slg-relacionamento {
+    background-color: goldenrod;
+}
+
+.slg-simples {
+    background-color: purple;
     color: white;
 }
