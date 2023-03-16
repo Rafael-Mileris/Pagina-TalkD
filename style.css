@@ -1,15 +1,16 @@
 /* FORMATAÇÃO GERAL */
 
-body{
+body {
     background-color: lightsteelblue;
 }
-a {
+a{
     color: black;
+    font-weight: bold;
 }
 
 /* NAVBAR */
 .navbar {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), white, rgba(128, 0, 128, 0.3));
+    background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), white);
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -22,6 +23,7 @@ a {
     font-size: 25px;
     border: 2px solid black;
     border-radius: 10px;
+    background-color: white;
     width: 9em;
     text-align: center;
 }
@@ -34,28 +36,46 @@ a {
 }
 
 /* SLOGAN */
-.slogan{
+.slogan {
+    padding-top: 5px;
     margin: auto;
-    padding: 2px;
-}
-.slg-item {
-    font-size: 20px;
     text-align: center;
-    border: 2px solid black;
-    border-radius: 5px;
-    font-weight: bold;
+    grid-gap: 2.5px;
 }
 
 .slg-atendimento {
     background-color: purple;
-    color: white;
+    border-radius: 20px;
 }
 
 .slg-relacionamento {
     background-color: goldenrod;
+    border-radius: 20px;
+    color: black;
 }
 
 .slg-simples {
     background-color: purple;
+    border-radius: 20px;
+}
+
+.slg-item {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.imagens {
+    padding-bottom: 20px;
+    height: 350px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.desc-item {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
     color: white;
 }
