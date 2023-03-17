@@ -35,12 +35,27 @@ a{
     color: white;
 }
 
+/* APRESENTAÇÃO */
+.apresentacao{
+}
+.titulos{
+    text-align: justify;
+}
+.txt-res-apresentacao{
+    
+}
+
+
+
 /* SLOGAN */
 .slogan {
     padding-top: 5px;
     margin: auto;
     text-align: center;
     grid-gap: 2.5px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 .slg-atendimento {
