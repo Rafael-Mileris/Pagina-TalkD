@@ -1,26 +1,45 @@
 /* FORMATAÇÃO GERAL */
 
 body {
-    background-color: lightsteelblue;
+    background-color: black;
 }
-a{
+
+a {
     color: black;
     font-weight: bold;
 }
 
-/* NAVBAR */
-.navbar {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), white);
-    border: 2px solid black;
-    border-radius: 10px;
+/* DIV GERAL */
+#div-geral {
+    background-image: url(https://i.gifer.com/KLMu.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
-#logotipo {
-    height: 6em;
+/* LOGOTIPO */
+.logotipo {
+    text-align: center;
+}
+
+#logo {
+    height: 8em;
+}
+
+
+/* NAVBAR */
+.navbar {
+    /* background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), white, rgba(128, 0, 128, 0.3)); */
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-around;
 }
 
 .nav-item {
-    font-size: 25px;
+    font-size: 23px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
@@ -32,17 +51,27 @@ a{
     transition: 0.2s;
     border: 2px solid purple;
     box-shadow: 0px 0px 5px purple;
-    color: white;
 }
 
 /* APRESENTAÇÃO */
-.apresentacao{
+.apresentacao {
+    border: 5px ridge purple;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
-.titulos{
-    text-align: justify;
+
+#txt-destaque {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
 }
-.txt-res-apresentacao{
-    
+
+.titulos {
+    font-size: 23px;
+    color: goldenrod;
 }
 
 
@@ -53,7 +82,7 @@ a{
     margin: auto;
     text-align: center;
     grid-gap: 2.5px;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid black;
     border-radius: 20px;
 }
@@ -82,8 +111,8 @@ a{
 
 .imagens {
     padding-bottom: 20px;
-    height: 350px;
-    width: 450px;
+    height: 200px;
+    width: auto;
     border-radius: 20px;
 }
 
