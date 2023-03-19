@@ -1,9 +1,4 @@
 /* FORMATAÇÃO GERAL */
-
-body {
-    background-color: black;
-}
-
 a {
     color: black;
     font-weight: bold;
@@ -11,7 +6,7 @@ a {
 
 /* DIV GERAL */
 #div-geral {
-    background-image: url(https://i.gifer.com/KLMu.gif);
+    background-image: url(./Imagens/plano_fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -112,7 +107,7 @@ a {
 .imagens {
     padding-bottom: 20px;
     height: 200px;
-    width: auto;
+    width: 250px;
     border-radius: 20px;
 }
 
