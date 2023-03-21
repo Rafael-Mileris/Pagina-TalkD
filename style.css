@@ -50,7 +50,7 @@ a {
 
 /* APRESENTAÇÃO */
 .apresentacao {
-    border: 5px ridge purple;
+    border: 1px solid purple;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -79,7 +79,7 @@ a {
     text-align: center;
     grid-gap: 2.5px;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid black;    
+    border: 1px solid purple;    
     border-radius: 20px;
 }
 
@@ -97,6 +97,7 @@ a {
     background-color: purple;
     border-radius: 20px;
 }
+
 
 .slg-titulo{
     text-align: center;
