@@ -8,6 +8,9 @@ hr {
     color: goldenrod;
 }
 
+body{
+    background-color: grey;
+}
 .bloco-sec {
     /* border: 2px solid purple; */
     border-radius: 20px;
@@ -26,17 +29,13 @@ hr {
 
 .titulos {
     /* font-size: 25px; */
-    text-align: center;
+    /* text-align: center; */
     color: goldenrod;
 }
 
-/* DIV GERAL */
-#div-geral {
-    background-image: url(./Imagens/plano_fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+.textos{
+    font-size: 23px;
+    font-family: "Source Sans Pro";
 }
 
 /* LOGOTIPO */
@@ -77,9 +76,28 @@ hr {
 /* APRESENTAÇÃO */
 .apresentacao {
     color: white;
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10em;
+    background-size: cover;
+
 }
 
-#txt-destaque {
+.bloco-apresentacao{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#titulo-apresentacao{
+    font-size: 50px;
+    font-family: "Edu NSW ACT Foundation";
+
+}
+
+#txt-destaque { 
     font-weight: bold;
     font-style: italic;
     text-align: center;
