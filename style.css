@@ -11,14 +11,6 @@ hr {
 body{
     background-color: black;
 }
-.bloco-sec {
-    /* border: 2px solid purple; */
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 .imagens {
     padding-bottom: 20px;
@@ -27,20 +19,10 @@ body{
     border-radius: 20px;
 }
 
-.titulos {
-    color: goldenrod;
-    font-family: "Ubuntu";
-}
-
-.sub-titulos{
-    color: purple;
-    font-family: "Sansita Swashed";
-    font-size: 50px;
-}
-
 .textos{
     font-size: 23px;
     font-family: "Source Sans Pro";
+    color: white;
 }
 
 /* LOGOTIPO */
@@ -80,26 +62,27 @@ body{
 
 /* APRESENTAÇÃO */
 .apresentacao {
-    color: white;
     background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10em;
     background-size: cover;
+}
 
+#titulo-apresentacao{
+    /* font-size: 50px; */
+    font-size: 3em;
+    color: goldenrod;
+    font-family: "Ubuntu";
 }
 
 .bloco-apresentacao{
+    color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 20px;
 }
-
-#titulo-apresentacao{
-    font-size: 50px;
-}
-
 #txt-destaque { 
     font-weight: bold;
     font-style: italic;
@@ -108,10 +91,18 @@ body{
 
 /* SLOGAN */
 #titulo-slogan{
-    font-size: 5em;
+    color: goldenrod;
+    font-family: "Ubuntu";
+    font-size: 4em;
     text-align: center;
     padding: 20px;
-    text-shadow: 2px 2px 50px gold;
+    /* text-shadow: 2px 2px 50px gold; */
+}
+
+.sub-titulos{
+    color: purple;
+    font-family: "Sansita Swashed";
+    font-size: 50px;
 }
 
 .slg-item{
@@ -138,15 +129,9 @@ body{
 }
 
 .slg-simples {
-    background-color: purple;
+    /* background-color: purple; */
+    background-color: seagreen;
     border-radius: 20px;
-}
-
-.slg-titulo {
-    text-align: center;
-    font-size: 23px;
-    color: goldenrod;
-    font-weight: bold;
 }
 
 .desc-item {
@@ -160,11 +145,36 @@ body{
 }
 
 /* SOLUÇÕES DIGITAIS */
+.solucoes-digitais{
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
+    background-size: cover;
+    background-position: top;
+    margin: auto;
+    padding: 10em;
+}
+#titulo-sol-digitais{
+    text-align: center;
+    color: goldenrod;
+    font-family: "Ubuntu";
+    font-size: 5em;
+}
+
+.txt-sol-dig{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
 .sol-dig-item {
     color: white;
 }
 
 .img-sol-dig {
-    height: 2.5em;
+    height: 5em;
     border-radius: 100px;
+}
+
+.titulo-item-sol{
+    font-size: 30px;
+    font-family: "Sansita Swashed";
 }
