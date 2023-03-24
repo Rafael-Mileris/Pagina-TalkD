@@ -61,6 +61,7 @@ body{
 }
 
 /* APRESENTAÇÃO */
+
 .apresentacao {
     background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
     margin: auto;
@@ -90,6 +91,14 @@ body{
 }
 
 /* SLOGAN */
+.slogan{
+    border: 2px solid goldenrod;
+    box-shadow: 0 0 10px 5px goldenrod;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 #titulo-slogan{
     color: goldenrod;
     font-family: "Ubuntu";
@@ -142,11 +151,13 @@ body{
     margin-bottom: 10px;
     font-weight: bold;
     color: white;
+    background-color: black;
 }
 
 /* SOLUÇÕES DIGITAIS */
 .solucoes-digitais{
-    background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/03/00/12/fiber-4814456_960_720.jpg);
     background-size: cover;
     background-position: top;
     margin: auto;
@@ -177,4 +188,49 @@ body{
 .titulo-item-sol{
     font-size: 30px;
     font-family: "Sansita Swashed";
+}
+
+/* VOCÊ SABIA */
+.vc-sabia{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5em;
+    margin: 0 auto;
+}
+
+#titulo-vc-sabia{
+    text-align: center;
+    color: goldenrod;
+    font-family: "Ubuntu";
+    font-size: 5em;
+    padding-bottom: 0.5em;
+}
+
+.bloco-txt{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* RODAPE */
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, black, grey, black);
+    padding: 5px;
+}
+
+#txt-rodape{
+    color: white;
+}
+
+.logo-rodape{
+    height: 30px;
 }
