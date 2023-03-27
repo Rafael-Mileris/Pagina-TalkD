@@ -19,19 +19,21 @@ body {
 }
 
 .img-de-fundo {
-    /* margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10em; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .titulo-principal {
-    /* font-size: 50px; */
-    font-size: 10em;
+    font-size: 35px;
     color: goldenrod;
     font-family: "Ubuntu";
     padding: 50px;
@@ -39,14 +41,15 @@ body {
 }
 
 .sub-titulo{
-    color: purple;
+    /* color: purple; */
+    color: rebeccapurple;
     font-family: "Sansita Swashed";
-    font-size: 2em;
+    font-size: 33px;
 
 }
 
 .textos {
-    font-size: 23px;
+    font-size: 18px;
     font-family: "Source Sans Pro";
     color: white;
 }
@@ -90,6 +93,7 @@ body {
 
 .apresentacao {
     background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
+    text-align: left;
 
 }
 
@@ -113,11 +117,12 @@ body {
 /* SLOGAN */
 .slogan {
     border: 2px solid goldenrod;
-    box-shadow: 0 0 10px 5px goldenrod;
+    box-shadow: 0 0 10px 1px goldenrod;
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* background-image: linear-gradient(to right, black, grey, black); */
 }
 
 #titulo-slogan {
@@ -128,10 +133,10 @@ body {
 
 .slg-item {
     /* background-image: url(https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_960_720.png); */
-    border-radius: 20px;
+    border-radius: 10px;
     margin: auto;
     padding: 50px;
-    grid-gap: 5px;
+    background-image: linear-gradient(to right, black, grey, black);
 }
 
 .slg-textos {
@@ -141,15 +146,21 @@ body {
 
 #img-atendimento {
     background-color: purple;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #img-relacionamento {
     background-color: goldenrod;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #img-simples {
     /* background-color: purple; */
     background-color: seagreen;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .desc-item {
