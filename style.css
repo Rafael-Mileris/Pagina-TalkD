@@ -52,6 +52,14 @@ body {
     font-size: 18px;
     font-family: "Source Sans Pro";
     color: white;
+    /* background-color: red; */
+}
+
+.bloco-txt {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
 }
 
 /* LOGOTIPO */
@@ -99,13 +107,6 @@ body {
 
 #titulo-apresentacao {
     
-}
-
-.bloco-apresentacao {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    padding: 20px;
 }
 
 #txt-destaque {
@@ -184,13 +185,6 @@ body {
     text-align: center;
 }
 
-.txt-sol-dig {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    padding: 20px;
-}
-
 .sol-dig-item {
     color: white;
 }
@@ -212,14 +206,6 @@ body {
 
 #titulo-vc-sabia {
     text-align: center;
-}
-
-.bloco-txt {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
 }
 
 /* SERVIÇOS */
