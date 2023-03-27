@@ -26,8 +26,8 @@ body {
     margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    border-top: 2px solid goldenrod;
-    border-bottom: 2px solid goldenrod;
+    border-top: 0.5px solid goldenrod;
+    border-bottom: 0.5px solid goldenrod;
     padding-top: 6em;
     padding-bottom: 6em;
 }
@@ -41,25 +41,26 @@ body {
 }
 
 .sub-titulo{
-    /* color: purple; */
     color: rebeccapurple;
     font-family: "Sansita Swashed";
     font-size: 33px;
-
 }
 
 .textos {
     font-size: 18px;
     font-family: "Source Sans Pro";
     color: white;
-    /* background-color: red; */
 }
 
 .bloco-txt {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;
+    margin: 0 auto;
+    border: 0.5px solid transparent;
+}
+.bloco-txt:hover{
+    box-shadow: 0px 0px 10px 1px goldenrod;
 }
 
 /* LOGOTIPO */
@@ -68,26 +69,25 @@ body {
 }
 
 #logo {
-    height: 3em;
+    height: 2.5em;
     margin: 20px;
 }
 
 
 /* NAVBAR */
 .navbar {
-    /* background-color: white; */
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid black;
     border-radius: 20px;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .nav-item {
-    font-size: 23px;
+    font-size: 20px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
-    width: 9em;
+    width: 10em;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ body {
 
 /* APRESENTAÇÃO */
 
-.apresentacao {
+#apresentacao {
     background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
     text-align: left;
 
@@ -116,9 +116,9 @@ body {
 }
 
 /* SLOGAN */
-.slogan {
-    border: 2px solid goldenrod;
-    box-shadow: 0 0 10px 1px goldenrod;
+#slogan {
+    /* border: 2px solid goldenrod; */
+    /* box-shadow: 0 0 10px 1px goldenrod; */
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 20px;
@@ -176,9 +176,15 @@ body {
 }
 
 /* SOLUÇÕES DIGITAIS */
-.solucoes-digitais {
+#solucoes-digitais {
     /* background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg); */
     background-image: url(https://cdn.pixabay.com/photo/2020/02/03/00/12/fiber-4814456_960_720.jpg);
+}
+#fundo-solucoes{
+    background-color: rgba(119, 136, 153, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 #titulo-sol-digitais {
@@ -200,7 +206,7 @@ body {
 }
 
 /* VOCÊ SABIA */
-.vc-sabia {
+#vc-sabia {
     background-image: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_960_720.jpg);
 }
 
@@ -209,7 +215,10 @@ body {
 }
 
 /* SERVIÇOS */
-.servicos {}
+#servicos {
+    background-color: rgba(119, 136, 153, 0.2);
+    border-radius: 20px;
+}
 
 #titulo-servicos {
     text-align: center;
@@ -227,7 +236,7 @@ body {
 }
 
 /* RODAPE */
-.rodape {
+#rodape {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
