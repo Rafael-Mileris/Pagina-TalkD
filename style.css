@@ -10,6 +10,7 @@ hr {
 
 body {
     background-color: black;
+    margin: 0 auto;
 }
 
 .imagens {
@@ -56,10 +57,11 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     padding: 20px;
-    margin: 0 auto;
+    margin: auto;
     border: 0.5px solid transparent;
 }
 .bloco-txt:hover{
+    transition: 0.5s;
     box-shadow: 0px 0px 10px 1px goldenrod;
 }
 
@@ -76,13 +78,18 @@ body {
 
 /* NAVBAR */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid black;
-    border-radius: 20px;
-    justify-content: space-around; 
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 2px solid black; */
+    justify-content: space-between; 
+    padding-left: 20px;
+    margin: auto;
 }
 
-.nav-item {
+.dropdown{
+    width: 200px;
+}
+
+.dropdown-item {
     font-size: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -102,6 +109,7 @@ body {
 #apresentacao {
     background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
     text-align: left;
+    margin: auto;
 
 }
 
@@ -185,6 +193,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 #titulo-sol-digitais {
@@ -193,6 +202,7 @@ body {
 
 .sol-dig-item {
     color: white;
+    margin: 0 auto;
 }
 
 .img-sol-dig {
@@ -218,6 +228,7 @@ body {
 #servicos {
     background-color: rgba(119, 136, 153, 0.2);
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 #titulo-servicos {
