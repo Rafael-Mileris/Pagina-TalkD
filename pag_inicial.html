@@ -20,37 +20,25 @@
   </head>
 
   <body>
-    <!--LOGOTIPO-->
-    <!-- <header class="container-fluid">
-      <div class="logotipo">
-        <a href="#"><img id="logo" src="./Imagens/logo_talkd.png" alt="Logotipo Talkd" /></a>
-      </div>
-    </header> -->
-
-    <!--NAVBAR-->
-    <nav class="container-fluid navbar navbar-dark fixed-top">
-      <div class="logotipo">
-        <a href="#"><img id="logo" src="./Imagens/logo_talkd.png" alt="Logotipo Talkd" /></a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-inicio" href="#">Inicio</a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-solucoes" href="#slogan">Metodologia TalkD</a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-cont-cent" href="#solucoes-digitais">Soluções Digitais</a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-consultoria" href="#vc-sabia">Você sabia?</a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-sobre" href="#">Sobre</a>
-      </div>
-      <div class="nav-item">
-        <a id="nav-contato" href="#">Contato</a>
-      </div>
-    </nav>
+    <!--LOGOTIPO - NAVBAR-->
+    <header class="container-fluid">
+      <nav class="container-fluid navbar navbar-dark">
+        <div class="logotipo">
+          <a href="#"><img id="logo" src="./Imagens/logo_talkd.png" alt="Logotipo Talkd" /></a>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="btn-navbar" data-bs-toggle="dropdown" aria-expanded="false">Seções</button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Inicio</a></li>
+            <li><a class="dropdown-item" id="nav-solucoes" href="#slogan">Metodologia TalkD</a></li>
+            <li><a class="dropdown-item" id="nav-cont-cent" href="#solucoes-digitais">Soluções Digitais</a></li>
+            <li><a class="dropdown-item" id="nav-consultoria" href="#vc-sabia">Você Sabia?</a></li>
+            <li><a class="dropdown-item" id="nav-sobre" href="#">Sobre</a></li>
+            <li><a class="dropdown-item" id="nav-contato" href="#">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!--APRESENTAÇÃO-->
     <header class="container-fluid row img-de-fundo" id="apresentacao">
@@ -72,7 +60,7 @@
       <!--ATENDIMENTO-->
       <section class="container row slg-item">
         <div class="slg-atendimento col-sm-3">
-          <img id="img-atendimento" class="imagens" src="./Imagens/img_atendimento_semfundo.png" />
+          <img id="img-atendimento" class="imagens slg-atendimento" src="./Imagens/img_atendimento_semfundo.png" />
         </div>
         <div class="desc-item col">
           <h2 id="atendimento" class="sub-titulo">Atendimento</h2>
