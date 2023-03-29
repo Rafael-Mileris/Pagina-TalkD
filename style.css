@@ -67,6 +67,20 @@ body {
     box-shadow: 0px 0px 10px 1px goldenrod;
 }
 
+/* ICONES REDES SOCIAIS */
+#icone-linkedin{
+    background-color: #0072b1;
+}
+#icone-linkedin:hover{
+    box-shadow: 0px 0px 5px 1px white;
+}
+#icone-facebook{
+    background-color: #3b5998;
+}
+#icone-facebook:hover{
+    box-shadow: 0px 0px 5px 1px white;
+}
+
 /* LOGOTIPO */
 .logotipo {
     text-align: center;
@@ -137,6 +151,8 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     /* background-image: linear-gradient(to right, black, grey, black); */
+    background-color: rgba(119, 136, 153, 0.2);
+    padding-bottom: 20px;
 }
 
 #titulo-slogan {
@@ -154,7 +170,9 @@ body {
 
 .slg-textos {
     font-size: 25px;
-    padding: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(119, 136, 153, 0.2);
 }
 
 #img-atendimento {
@@ -250,7 +268,6 @@ body {
 .btn-inicio{
     text-align: end;
     padding: 20px;
-    background-color: transparent;
     color: white;
 }
 
