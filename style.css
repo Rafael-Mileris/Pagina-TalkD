@@ -270,6 +270,9 @@ body {
     padding: 20px;
     color: white;
 }
+#icone-subir-tela{
+    background-color: goldenrod;
+}
 
 /* RODAPE */
 #rodape {
