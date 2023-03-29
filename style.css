@@ -246,6 +246,14 @@ body {
     padding-bottom: 2em;
 }
 
+/* ICONE SUBIR - FLECHA PARA CIMA */
+.btn-inicio{
+    text-align: end;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+}
+
 /* RODAPE */
 #rodape {
     display: flex;
