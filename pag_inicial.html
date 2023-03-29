@@ -9,7 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>TalkD - Página Inicial</title>
+    <!--BIBLIOTECA DE ICONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--FONTS GOOGLE-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,19 +18,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Sansita+Swashed&family=Source+Sans+Pro:wght@300;400&family=Spline+Sans+Mono&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Sansita+Swashed&family=Source+Sans+Pro:wght@300;400&family=Spline+Sans+Mono&family=Ubuntu&display=swap" rel="stylesheet" />
+
+    <title>TalkD - Página Inicial</title>
   </head>
 
   <body>
     <!--LOGOTIPO - NAVBAR-->
     <header class="container-fluid">
       <nav class="container-fluid navbar navbar-dark">
+        <div class="icones-redes">
+          <a href="https://www.linkedin.com/company/talkd-solutions-brazil/about/" target="_blank" class="btn btn-md btn-primary" id="icone-linkedin" role="button" aria-pressed="true"><i class="fa fa-linkedin"></i></a>
+          <a href="#" target="_blank" class="btn btn-md btn-primary" id="icone-facebook" role="button" aria-pressed="true"><i class="fa fa-facebook"></i></a>
+        </div>
         <div class="logotipo">
           <a href="#"><img id="logo" src="./Imagens/logo_talkd.png" alt="Logotipo Talkd" /></a>
         </div>
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="btn-navbar" data-bs-toggle="dropdown" aria-expanded="false">Seções</button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Inicio</a></li>
             <li><a class="dropdown-item" id="nav-solucoes" href="#slogan">Metodologia TalkD</a></li>
             <li><a class="dropdown-item" id="nav-cont-cent" href="#solucoes-digitais">Soluções Digitais</a></li>
             <li><a class="dropdown-item" id="nav-consultoria" href="#vc-sabia">Você Sabia?</a></li>
@@ -170,7 +176,7 @@
 
     <!--BOTÃO SUBIR TELA-->
     <div class="btn-inicio fixed-bottom">
-      <a href="#" class="btn btn-md active" role="button" aria-pressed="true">Inicio</a>
+      <a href="#" class="btn btn-lg active" role="button" aria-pressed="true"><i class="fa fa-arrow-circle-o-up"></i></a>
     </div>
 
     <!--RODAPÉ-->
