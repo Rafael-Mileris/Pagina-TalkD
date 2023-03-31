@@ -1,4 +1,4 @@
-/* FORMATAÇÃO GERAL */
+/*FORMATAÇÃO GERAL */
 a {
     color: black;
     font-weight: bold;
@@ -262,6 +262,36 @@ body {
     text-align: center;
     color: goldenrod;
     padding-bottom: 2em;
+}
+
+/* SOBRE */
+#apres-empre{
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
+}
+
+.img-apresentacao{
+    height: 70px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#desc-empre{
+    border: 2px solid red;
+    justify-content: space-around;
+}
+
+#apres-dfh{
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+#apres-talkd{
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 0 auto;
 }
 
 /* ICONE SUBIR - FLECHA PARA CIMA */
