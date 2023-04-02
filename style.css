@@ -284,15 +284,40 @@ body {
 }
 
 .apres-empre{
-    text-align: justify;
+    text-align: left;
     padding: 20px;
     margin: 0 auto;
 }
 
 /** FILOSOFIA DE TRABALHO */
-#img-filos-trab{
+#filos-trabalho{
     background-image: url(https://cdn.pixabay.com/photo/2017/07/06/14/48/organization-2478211_960_720.jpg);
+}
 
+.bloco-filos-trabalho{
+    background-color: rgba(119, 136, 153, 0.2);
+    margin: 0 auto;
+}
+
+.item-filos-trab{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.icone-filos-trab{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    height: 5em;
+    border: 2px solid goldenrod;
+}
+.desc-filos-trab{
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-top: 10px;
 }
 
 /* ICONE SUBIR - FLECHA PARA CIMA */
