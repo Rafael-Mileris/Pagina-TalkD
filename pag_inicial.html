@@ -24,24 +24,22 @@
 
   <body>
     <!--LOGOTIPO - NAVBAR-->
-    <header class="container-fluid">
+    <header>
       <nav class="container-fluid navbar navbar-dark">
-        <div class="icones-redes">
-          <a href="https://www.linkedin.com/company/talkd-solutions-brazil/about/" target="_blank" class="btn btn-md btn-primary" id="icone-linkedin" role="button" aria-pressed="true"><i class="fa fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/Talkd.Solucoes?mibextid=ZbWKwL" target="_blank" class="btn btn-md btn-primary" id="icone-facebook" role="button" aria-pressed="true"><i class="fa fa-facebook"></i></a>
-        </div>
         <div class="logotipo">
           <a href="#"><img id="logo" src="./Imagens/logo_talkd.png" alt="Logotipo Talkd" /></a>
         </div>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="btn-navbar" data-bs-toggle="dropdown" aria-expanded="false">Seções</button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" id="nav-solucoes" href="#slogan">Metodologia TalkD</a></li>
-            <li><a class="dropdown-item" id="nav-sol-dig" href="#solucoes-digitais">Soluções Digitais</a></li>
-            <li><a class="dropdown-item" id="nav-vc-sabia" href="#vc-sabia">Você Sabia?</a></li>
-            <li><a class="dropdown-item" id="nav-sobre" href="sobre.html">Sobre</a></li>
-            <li><a class="dropdown-item" id="nav-contato" href="#">Contato</a></li>
-          </ul>
+        <div class="container" id="navbar-link">
+          <a class="nav-item" id="nav-solucoes" href="#slogan">Metodologia TalkD</a>
+          <a class="nav-item" id="nav-sol-dig" href="#solucoes-digitais">Soluções Digitais</a>
+          <a class="nav-item" id="nav-vc-sabia" href="#vc-sabia">Você Sabia?</a>
+          <a class="nav-item" id="nav-sobre" href="sobre.html">Sobre</a>
+          <a class="nav-item" id="nav-contato" href="#">Contato</a>
+          <!--REDE SOCIAL-->
+          <div class="icones-redes">
+            <a href="https://www.linkedin.com/company/talkd-solutions-brazil/about/" target="_blank" class="btn btn-md btn-primary" id="icone-linkedin" role="button" aria-pressed="true"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/Talkd.Solucoes?mibextid=ZbWKwL" target="_blank" class="btn btn-md btn-primary" id="icone-facebook" role="button" aria-pressed="true"><i class="fa fa-facebook"></i></a>
+          </div>
         </div>
       </nav>
     </header>
@@ -49,8 +47,10 @@
     <!--APRESENTAÇÃO-->
     <section class="container-fluid" id="apresentacao">
       <div class="container-fluid img-de-fundo" id="img-apresentacao">
-        <h2 id="titulo-apresentacao" class="titulo-principal">A sua empresa disponibiliza uma estrutura moderna e eficiente de atendimento e relacionamento aos seus clientes?</h2>
-        <div class="container bloco-txt">
+        <h1 id="titulo-apresentacao" class="titulo-principal">Bem vindo(a) a TalkD Soluções em Atendimento!</h1>
+        <div class="container-fluid bloco-txt">
+          <h2 id="titulo-apresentacao" class="sub-titulo">A sua empresa disponibiliza uma estrutura moderna e eficiente de atendimento e relacionamento aos seus clientes?</h2>
+          <br />
           <p class="textos">Em mercados cada vez mais competitivos e comoditizados, estratégias diferenciadas e eficientes de atendimento e relacionamento podem tornar-se grandes diferenciais de negócio para qualquer empresa.</p>
           <p class="textos">Por esse motivo, a TalkD evoluiu para poder entregar soluções num contexto moderno, integradas e alinhadas com as necessidades de quem atende e precisa ser atendido</p>
           <p class="textos txt-destaque">Agende uma reunião com a TalkD e descubra como transformar o atendimento e impactar os resultados do seu negócio!</p>
@@ -82,7 +82,7 @@
       <!--SIMPLES!-->
       <div class="container col slg-item">
         <div class="desc-item slg-simples">
-          <img id="img-simples" src="./Imagens/img_simples_semfundo.png" />
+          <img id="img-simples" src="./Imagens/img_simples_2-semfundo.png" />
           <h2 id="simples" class="sub-titulo">Simples!</h2>
           <p class="slg-textos">Proporcionar um ambiente de total engajamento, com equipes bem treinadas, motivadas, tratadas sempre com respeito e em conjunto com todos da operação, entregar o melhor para o cliente.</p>
         </div>
