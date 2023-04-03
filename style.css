@@ -17,9 +17,13 @@ section > *{
 }
 
 .img-de-fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0 auto;
+    margin-bottom: 2em;
     border-top: 0.5px solid goldenrod;
-    /* border-bottom: 0.5px solid goldenrod; */
+    border-bottom: 0.5px solid goldenrod;
     padding: 2em;
     text-align: center;
 }
@@ -31,6 +35,7 @@ section > *{
     padding: 50px;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .sub-titulo{
@@ -47,8 +52,8 @@ section > *{
 }
 
 .bloco-txt {
-    /* background-color: rgba(0, 0, 0, 0.8); */
-    background-color: rgba(102, 51, 153, 0.199);
+    /* background-color:rgba(128, 128, 128, 0.4); */
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 20px;
     margin: auto;
@@ -65,8 +70,6 @@ section > *{
 
 .item-lista{
     list-style: square;
-    margin-top: 1em;
-    padding-bottom: 20px;
 }
 
 /* ICONES REDES SOCIAIS */
@@ -130,6 +133,10 @@ section > *{
 /* APRESENTAÇÃO */
 #apresentacao {
     background-color: black;
+}
+
+#img-apresentacao{
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
 }
 
 #titulo-apresentacao {
@@ -204,6 +211,9 @@ section > *{
 }
 
 /* SOLUÇÕES DIGITAIS */
+#img-solucoes-digitais{
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/18/02/16/luminous-7204052_960_720.jpg);
+}
 #solucoes-digitais {
     background-color: black;
     justify-content: space-around;
@@ -236,6 +246,9 @@ section > *{
 }
 
 /* VOCÊ SABIA */
+#img-vc-sabia{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_960_720.jpg);
+}
 
 #titulo-vc-sabia {
     text-align: center;
