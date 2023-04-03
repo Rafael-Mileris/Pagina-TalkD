@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 
-section > *{
+section>* {
     margin-bottom: 2em;
 }
 
@@ -31,17 +31,18 @@ section > *{
 .titulo-principal {
     font-size: 35px;
     color: goldenrod;
+    font-weight: bold;
     font-family: "Ubuntu";
     padding: 50px;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
-.sub-titulo{
+.sub-titulo {
     color: rebeccapurple;
     font-family: "Sansita Swashed";
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -53,36 +54,41 @@ section > *{
 
 .bloco-txt {
     /* background-color:rgba(128, 128, 128, 0.4); */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
     padding: 20px;
     margin: auto;
     border: 0.5px solid transparent;
 }
-.bloco-txt:hover{
+
+.bloco-txt:hover {
     transition: 0.5s;
     box-shadow: 0px 0px 10px 1px goldenrod;
 }
 
-#lista-servicos, #lista-historico{
+#lista-servicos,
+#lista-historico {
     color: white;
 }
 
-.item-lista{
+.item-lista {
     list-style: square;
 }
 
 /* ICONES REDES SOCIAIS */
-#icone-linkedin{
+.icones-redes{
+
+}
+#icone-linkedin {
     background-color: #0072b1;
 }
-#icone-linkedin:hover{
-    box-shadow: 0px 0px 5px 1px white;
-}
-#icone-facebook{
+
+#icone-facebook {
     background-color: #3b5998;
 }
-#icone-facebook:hover{
+
+#icone-linkedin:hover,
+#icone-facebook:hover {
     box-shadow: 0px 0px 5px 1px white;
 }
 
@@ -93,37 +99,33 @@ section > *{
 
 #logo {
     height: 2.5em;
-    margin: 20px;
+    margin: 10px;
 }
 
 
 /* NAVBAR */
 .navbar {
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    /* border: 2px solid black; */
-    justify-content: space-between; 
-    padding-left: 20px;
-    margin: auto;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
 }
 
-#btn-navbar{
-    width: 200px;
+#navbar-link{
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-item {
+    font-size: 20px;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.dropdown-item {
-    font-size: 20px;
-    color: black;
     text-align: center;
+    background-color: rgba(119, 136, 153, 0.2);
     border: 2px solid transparent;
-    background-color: white;
-    width: 10em;
+    border-radius: 2em;
+    width: auto;
     padding: 10px;
 }
 
-.dropdown-item:hover {
+.nav-item:hover {
     transition: 0.2s;
     background-color: purple;
     font-weight: bold;
@@ -135,8 +137,8 @@ section > *{
     background-color: black;
 }
 
-#img-apresentacao{
-    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg);
+#img-apresentacao {
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/24/22/43/dubai-1767540_960_720.jpg);
 }
 
 #titulo-apresentacao {
@@ -156,7 +158,8 @@ section > *{
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgba(119, 136, 153, 0.2);
+    /* background-color: rgba(119, 136, 153, 0.2); */
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
     padding-bottom: 20px;
 }
 
@@ -178,9 +181,11 @@ section > *{
     border: 2px solid rgba(119, 136, 153, 0.2);
 }
 
-#img-atendimento, #img-relacionamento, #img-simples{
+#img-atendimento,
+#img-relacionamento,
+#img-simples {
     height: 100%;
-    width: 100%; 
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -211,27 +216,29 @@ section > *{
 }
 
 /* SOLUÇÕES DIGITAIS */
-#img-solucoes-digitais{
+#img-solucoes-digitais {
     background-image: url(https://cdn.pixabay.com/photo/2022/05/18/02/16/luminous-7204052_960_720.jpg);
 }
+
 #solucoes-digitais {
     background-color: black;
     justify-content: space-around;
 }
+
 #titulo-sol-digitais {
     text-align: center;
 }
 
-.bloco-sol-dig{
+.bloco-sol-dig {
     background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
     margin: 0;
     padding: 0;
 }
 
-.sol-dig-item{
+.sol-dig-item {
     padding: 20px;
     /* border: 2px solid grey; */
-    
+
 }
 
 .img-sol-dig {
@@ -246,7 +253,7 @@ section > *{
 }
 
 /* VOCÊ SABIA */
-#img-vc-sabia{
+#img-vc-sabia {
     background-image: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_960_720.jpg);
 }
 
@@ -256,7 +263,8 @@ section > *{
 
 /* SERVIÇOS */
 #servicos {
-    background-color: rgba(119, 136, 153, 0.2);
+    /* background-color: rgba(119, 136, 153, 0.2); */
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
     border-radius: 20px;
     margin: 0 auto;
 }
@@ -274,40 +282,48 @@ section > *{
 /* SEÇÃO - SOBRE */
 
 /** APRESENTAÇÃO DAS EMPRESAS */
-#apresentacao-empresas{
-    background-color: rgba(119, 136, 153, 0.2);
+#apresentacao-empresas {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
     margin: 0 auto;
-
 }
 
-.img-apresentacao{
+#img-apres-empre {
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/27/22/56/city-863692_960_720.jpg);
+}
+
+.img-apresentacao {
     height: 70px;
     width: auto;
     margin: 0 auto;
 }
 
-#desc-empre{
+#desc-empre {
     border: 2px solid black;
     justify-content: space-around;
     background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+
 }
 
-.apres-empre{
+.apres-empre {
     text-align: left;
-    padding: 20px;
+    padding: 2em;
     margin: 0 auto;
 }
 
 /** FILOSOFIA DE TRABALHO */
-#filosofia-trabalho{
-    background-color: rgba(119, 136, 153, 0.2);
+#img-filos-trab {
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/28/16/18/board-4887880_960_720.jpg);
 }
 
-.bloco-filos-trabalho{
-    background-color: rgba(119, 136, 153, 0.2);
+#filosofia-trabalho {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
 }
 
-.item-filos-trab{
+.bloco-filos-trabalho {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+}
+
+.item-filos-trab {
     text-align: center;
     padding: 20px;
     border: 2px solid white;
@@ -315,37 +331,39 @@ section > *{
     margin: 15px;
 }
 
-.icone-filos-trab{
+.icone-filos-trab {
     background-color: white;
     border-radius: 20px;
     padding: 10px;
     height: 5em;
     border: 2px solid goldenrod;
 }
-.desc-filos-trab{
+
+.desc-filos-trab {
     /* border: 2px solid red; */
     text-align: left;
     margin-top: 10px;
 }
 
-.bloco-teste{
+.bloco-teste {
     background-color: blue;
 }
 
 /** HISTORICO */
-#historico{
-    background-color: rgba(119, 136, 153, 0.2);
+#historico {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
     border-radius: 20px;
     margin: 0 auto;
 }
 
 /* ICONE SUBIR - FLECHA PARA CIMA */
-.btn-inicio{
+.btn-inicio {
     text-align: end;
     padding: 20px;
     color: white;
 }
-#icone-subir-tela{
+
+#icone-subir-tela {
     background-color: goldenrod;
 }
 
