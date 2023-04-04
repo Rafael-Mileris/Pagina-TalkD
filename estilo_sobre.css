@@ -1,0 +1,218 @@
+/*FORMATAÇÃO GERAL */
+a {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    color: goldenrod;
+}
+
+body {
+    background-color: black;
+}
+
+section>* {
+    margin-bottom: 2em;
+}
+
+.img-de-fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-top: 0.5px solid goldenrod;
+    border-bottom: 0.5px solid goldenrod;
+    padding: 2em;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 35px;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.textos {
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    color: white;
+}
+
+#lista-historico {
+    color: white;
+}
+
+.item-lista {
+    list-style: square;
+}
+
+/* ICONES REDES SOCIAIS */
+.icones-redes {}
+
+#icone-linkedin {
+    background-color: #0072b1;
+}
+
+#icone-facebook {
+    background-color: #3b5998;
+}
+
+#icone-linkedin:hover,
+#icone-facebook:hover {
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+/* LOGOTIPO */
+.logotipo {
+    text-align: center;
+}
+
+#logo {
+    height: 2.5em;
+    margin: 10px;
+}
+
+
+/* NAVBAR */
+.navbar {
+    margin: 0 auto;
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+}
+
+#navbar-link {
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgba(119, 136, 153, 0.2);
+    border: 2px solid transparent;
+    border-radius: 1em;
+    width: auto;
+    padding: 10px;
+    margin: 1em;
+}
+
+.nav-item:hover {
+    transition: 0.2s;
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+}
+
+/* APRESENTAÇÃO DAS EMPRESAS */
+#apresentacao-empresas {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+    margin: 0 auto;
+}
+
+#img-apres-empre {
+    background-image: url(./Imagens_de_fundo/imgfundo_apres_empresas.jpg);
+}
+
+.img-apresentacao {
+    height: 70px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#desc-empre {
+    border: 2px solid black;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+}
+
+.apres-empre {
+    text-align: left;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+/* FILOSOFIA DE TRABALHO */
+#img-filos-trab {
+    /* background-image: url(./Imagens_de_fundo/imgfundo_filos_trabalho.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374_960_720.jpg);
+}
+
+#filosofia-trabalho {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+}
+
+.bloco-filos-trabalho {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+}
+
+.item-filos-trab {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.icone-filos-trab {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    height: 5em;
+    border: 2px solid goldenrod;
+}
+
+.desc-filos-trab {
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-top: 10px;
+}
+
+.bloco-teste {
+    background-color: blue;
+}
+
+/* HISTORICO */
+#historico {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* ICONE SUBIR - FLECHA PARA CIMA */
+.btn-inicio {
+    text-align: end;
+    padding: 20px;
+    color: white;
+}
+
+#icone-subir-tela {
+    background-color: goldenrod;
+}
+
+/* RODAPE */
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, black, grey, black);
+    padding: 2px;
+    margin: 0;
+}
+
+#txt-rodape {
+    color: white;
+    font-size: 8px;
+}
+
+.logo-rodape {
+    height: 15px;
+}
