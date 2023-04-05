@@ -76,9 +76,8 @@ section>* {
 }
 
 /* ICONES REDES SOCIAIS */
-.icones-redes{
+.icones-redes {}
 
-}
 #icone-linkedin {
     background-color: #0072b1;
 }
@@ -109,27 +108,51 @@ section>* {
     background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
 }
 
-#navbar-link{
-    justify-content: flex-end;
-    margin: 0;
+#btn-secoes {
+    padding: 0.5em 1em;
+    font-size: 20px;
+    font-weight: bold;
+    width: 9.8em;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgba(119, 136, 153, 0.2);
+    color: white;
+    border: 2px ridge purple;
+    border-radius: 5px;
 }
 
-.nav-item {
+.nav-link{
+    color:white;
     font-size: 1em;
-    color: white;
+    font-weight: bold;
     text-align: center;
     background-color: rgba(119, 136, 153, 0.2);
     border: 2px solid transparent;
     border-radius: 0.5em;
     width: auto;
-    padding: 10px;
+    padding: 0.5em;
     margin: 1em;
 }
 
-.nav-item:hover {
-    transition: 0.2s;
-    background-color: purple;
-    color: white;
+.nav-link:hover{
+    color: goldenrod;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px purple;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
 }
 
 /* APRESENTAÇÃO */
